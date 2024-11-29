@@ -1,0 +1,75 @@
+.row {
+  display: -ms-flexbox; /* Support for older IE */
+  display: flex;
+  -ms-flex-wrap: wrap; /* Support for older IE */
+  flex-wrap: wrap;
+  margin: 0 -16px; /* Offset column padding */
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  -ms-flex: 25%; /* Fallback for older IE */
+  flex: 25%; /* Default: 25% width */
+  padding: 16px; /* Inner column padding */
+  margin: 0 auto 16px auto; /* Center alignment with spacing */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+  max-width: 90%; /* Restrict column width */
+}
+
+.col-50 {
+  -ms-flex: 50%; /* Fallback for older IE */
+  flex: 50%; /* Default: 50% width */
+}
+
+.col-75 {
+  -ms-flex: 75%; /* Fallback for older IE */
+  flex: 75%; /* Default: 75% width */
+}
+
+.btn {
+  background-color: #4CAF50; /* Green button */
+  color: white; /* White text */
+  padding: 12px; /* Button padding */
+  margin: 10px 0; /* Spacing above and below button */
+  border: none; /* No border */
+  width: 100%; /* Full-width button */
+  border-radius: 3px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 17px; /* Button font size */
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.container {
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 5px 20px; /* Inner container padding */
+  border: 1px solid lightgrey; /* Light grey border */
+  border-radius: 3px; /* Rounded corners */
+  max-width: 95%; /* Restrict container width */
+  margin: 0 auto; /* Center align container */
+}
+
+input[type="text"] {
+  width: 100%; /* Full-width input */
+  margin-bottom: 20px; /* Spacing below input */
+  padding: 12px; /* Input padding */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 3px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+label {
+  margin-bottom: 10px; /* Space below label */
+  display: block; /* Block element */
+  font-weight: bold; /* Bold labels */
+}
+
+.icon-container {
+  margin-bottom: 20px; /* Space below icon container */
+}
